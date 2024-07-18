@@ -5,6 +5,7 @@ import main
 # 赞助链接：https://img.picui.cn/free/2024/06/29/667fd377e13fe.png
 app = Flask(__name__)
 
+
 @app.route('/')
 def index():
     return render_template('index.html')
